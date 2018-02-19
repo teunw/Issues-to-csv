@@ -4,7 +4,7 @@ from github import Github
 def app():
 	repoName = input('Specify your repo, for example (testuser/reponame):')
 	if repoName == "":
-		print("Enter a username")
+		print("Enter a repository")
 		app()
 
 	g = Github()
